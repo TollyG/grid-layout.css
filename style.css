@@ -12,7 +12,8 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
+    /* gap: 5px; */
+    column-gap: 5px;
     /* width: 500px; */
     /* height: 100%; */
 }
@@ -27,6 +28,7 @@ img{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2px;
+        column-gap: 2px;
     }
     img{
         width: 150px;
