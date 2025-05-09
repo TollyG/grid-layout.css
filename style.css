@@ -13,7 +13,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* gap: 5px; */
-    column-gap: 5px;
+    column-gap: 4px;
     /* width: 500px; */
     /* height: 100%; */
 }
@@ -27,7 +27,7 @@ img{
     .grid-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2px;
+        /* gap: 2px; */
         column-gap: 2px;
     }
     img{
